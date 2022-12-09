@@ -1,0 +1,15 @@
+.screen {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba($color: #ffffff, $alpha: .5);
+    border: 1px solid rgba($color: #ffffff, $alpha: .01);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, .1);
+    color: #232323;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 360px;
+    max-height: 95.5px;
+}

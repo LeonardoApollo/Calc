@@ -1,0 +1,16 @@
+.screen {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+  color: #232323;
+  font-size: 35px;
+  overflow: auto;
+  padding: 20px;
+  text-align: right;
+  width: 360px;
+  max-height: 95.5px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImJsb2Nrcy9zY3JlZW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBIiwiZmlsZSI6ImJsb2Nrcy9zY3JlZW4uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNjcmVlbiB7XHJcbiAgICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNS41cHgpO1xyXG4gICAgLXdlYmtpdC1iYWNrZHJvcC1maWx0ZXI6IGJsdXIoNS41cHgpO1xyXG4gICAgYmFja2dyb3VuZDogcmdiYSgkY29sb3I6ICNmZmZmZmYsICRhbHBoYTogLjUpO1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgcmdiYSgkY29sb3I6ICNmZmZmZmYsICRhbHBoYTogLjAxKTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgICBib3gtc2hhZG93OiAwIDRweCAzMHB4IHJnYmEoMzUsIDM1LCAzNSwgLjEpO1xyXG4gICAgY29sb3I6ICMyMzIzMjM7XHJcbiAgICBmb250LXNpemU6IDM1cHg7XHJcbiAgICBvdmVyZmxvdzogYXV0bztcclxuICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgICB0ZXh0LWFsaWduOiByaWdodDtcclxuICAgIHdpZHRoOiAzNjBweDtcclxuICAgIG1heC1oZWlnaHQ6IDk1LjVweDtcclxufSJdfQ== */

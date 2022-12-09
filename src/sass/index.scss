@@ -1,0 +1,50 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap');
+
+@import 'blocks/buttons.scss';
+@import 'blocks/screen.scss';
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(-45deg, rgba(2,0,36,1), rgba(42,9,121,1), rgba(0,255,233,1));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    justify-content: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.wrapper {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba($color: #ffffff, $alpha: .3);
+    border: 1px solid rbga(255, 255, 255, .34);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+    font-weight: 700;
+}
